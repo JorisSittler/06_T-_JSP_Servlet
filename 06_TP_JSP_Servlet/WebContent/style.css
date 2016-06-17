@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: white;
+	margin: 10%;
+	text-align: center;
+}
+
+a {
+/* 	background-color: buttonface; */
+	background: buttonface;
+	margin: 1%;
+	padding: 3px;
+}
+
+table {
+	align: center;
+	text-align: center;
+	width: 70%;
+	margin: 2.5%;
+}
+
+th {
+	padding: 1%;
+}
+
+td {
+	padding-bottom: 1%;
+	padding-top: 1%;
+}

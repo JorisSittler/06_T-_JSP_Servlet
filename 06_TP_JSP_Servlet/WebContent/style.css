@@ -7,10 +7,16 @@ body {
 }
 
 a {
-/* 	background-color: buttonface; */
-	background: buttonface;
+	border-style: outset;
+	border-color: buttonface;
+	box-sizing: border-box;
+	-webkit-appearance: push-button;
 	margin: 1%;
 	padding: 3px;
+}
+a, a:VISITED {
+	text-decoration: none;
+	color: black;
 }
 
 table {
